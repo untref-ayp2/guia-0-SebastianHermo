@@ -1,8 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"estructuras_repetitivas/funciones"
+	"fmt"
+)
 
-func TestFunciones() {
-	fmt.Println("Factorial de 5 es:", factorial(5))
+func main() {
+	fmt.Println("Factorial de 5 es:", funciones.Factoreo(5))
 
 }
