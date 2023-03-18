@@ -7,5 +7,5 @@ import (
 
 func main() {
 	fmt.Println("Factorial de 5 es:", funciones.Factoreo(5))
-
+	fmt.Println("El producto de 3 y 6 es:", funciones.SumasSucesivas(3, 6))
 }
